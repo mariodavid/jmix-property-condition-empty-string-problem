@@ -69,7 +69,7 @@ class PropertyConditionEmptyStringProblemTest {
 		class ThoseTestsShouldPass {
 
 			@Test
-			void given_homerCustomerInDb_when_searchingForCustomerWithEmptyName_then_marioIsFound() {
+			void given_homerCustomerInDb_when_searchingForCustomerWithEmptyName_then_nothingIsFound() {
 
 				// given:
 				saveCustomer("Homer Simpson");
@@ -85,7 +85,7 @@ class PropertyConditionEmptyStringProblemTest {
 			}
 
 			@Test
-			void given_homerCustomerInDb_when_searchingForCustomerWithNullName_then_marioIsFound() {
+			void given_homerCustomerInDb_when_searchingForCustomerWithNullName_then_nothingIsFound() {
 
 				// given:
 				saveCustomer("Homer Simpson");
@@ -131,7 +131,7 @@ class PropertyConditionEmptyStringProblemTest {
 		class ThoseTestsShouldPass {
 
 			@Test
-			void given_homerCustomerInDb_when_searchingForCustomerWithEmptyName_then_marioIsFound() {
+			void given_homerCustomerInDb_when_searchingForCustomerWithEmptyName_then_homerIsFound() {
 
 				// given:
 				saveCustomer("Homer Simpson");
@@ -149,7 +149,7 @@ class PropertyConditionEmptyStringProblemTest {
 
 
 			@Test
-			void given_homerCustomerInDb_when_searchingForCustomerWithNullName_then_marioIsFound() {
+			void given_homerCustomerInDb_when_searchingForCustomerWithNullName_then_homerIsFound() {
 
 				// given:
 				saveCustomer("Homer Simpson");
